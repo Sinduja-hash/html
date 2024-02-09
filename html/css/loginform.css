@@ -1,0 +1,32 @@
+body,#login{
+    background-image: linear-gradient(to right, rgb(145 54 114), rgb(203 39 106),rgb(211 15 40));
+    font-family: sans-serif;
+    
+}
+
+div{
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    height: 50%;
+    position: relative;
+    top: 5rem;
+    border-radius: 5px;
+}
+span{
+ color: rgb(223, 54, 110);
+ font-size: 17px;
+}
+input[type=email], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+ 
+input[type=button]{
+    border-radius: 3px;
+}

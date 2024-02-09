@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&family=Sriracha&display=swap');
+nav{ 
+    background-color: rgb(38, 38, 241);
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0 10%;
+    padding: 15px 20%;
+    font-family: sans-serif;
+    align-items: center;
+
+}
+li{
+    color: white;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+div{
+    width: 22%;
+    height: 480px;
+    margin: 0px 20px;
+    box-shadow: 0px 10px 25px lightgray;
+    padding: 11px 15px 11px 15px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    object-fit: cover;
+    align-content: center;
+    position: relative;
+    left: 2.5rem;
+    box-shadow: 0px 2px 4px lightgrey;
+}
+span{
+    font-size: 17px;
+    font-family:  serif;
+    font-family: 'Sriracha', cursive;
+    text-align: center;
+    display: block;
+    position: relative;
+    bottom: 25px;
+}
+span.text{
+    font-family: 'Roboto';
+    color: blue;
+}
+span.rte{
+    position: relative !important;
+    bottom: 20px !important;
+    font-family: sans-serif !important;
+}
+footer{
+    background-color: rgb(38 100 241);
+    height: 50px;
+}
+p.footer_rte{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 16px;
+}
