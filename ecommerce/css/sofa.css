@@ -1,0 +1,66 @@
+a.active{
+    color: rgb(146, 50, 50); /* Color for the active link */
+ }
+.video_banner{
+    margin-top: -8.5rem;
+    margin-bottom: 5rem;
+}
+.sectional-sofa {
+    max-width: 100  0px; /* Adjust the maximum width as needed */
+    margin: 20px auto;
+    margin-bottom: 5rem;
+  }
+  
+.image_sofa {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+.sectional_sofa {
+    overflow: hidden;
+  }
+.image_sofa  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+.image_sofa  img:hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+} 
+.star_rating{
+    font-size: 16px;
+    color: #e7721b;
+    text-align: center;
+    padding-top: 8px;
+}
+i.fa.fa-star.checked {
+    margin: 0px -9px;
+}
+i.fa.fa-star-half-full {
+    margin: 0px -8px;
+}
+.sectional_sofa h2{
+    padding-top: 10px;
+    color: #24435d !important;
+    font-size: 18px !important;
+    font-weight: 400;
+}
+.desc_info {
+    display: flex;
+    justify-content: center;
+}
+.total_price {
+    display: flex;
+    padding-top: 18px;
+    padding-left: 14px;
+}
+.strike_price p{
+    font-size: 16px;
+    padding-right: 4px;
+}
+.price p{
+    font-size: 16px;
+    color: #804214;
+}
